@@ -1,0 +1,43 @@
+ /* navbar formázása*/
+nav {
+    background-color: rgba(192, 201, 209, 0.774);
+    background-position-x: center;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+  }
+
+   /* Képek formázása*/
+  img {
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+ 
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  body{
+    background-color: rgb(154, 206, 190);
+  }
+
+  form label
+  {
+    display: inline-block;
+    width: 10%;
+    margin-bottom: 8px;
+  }
+
+  form input
+  {
+    margin-bottom: 8px;
+  }
